@@ -17,8 +17,8 @@
 </head>
 
 <body>
-	<h1>Trang chủ</h1>
-	<h1>Menu</h1>
+	<h1>Home page</h1>
+	<h2>Menu</h2>
 
 	<a href="list-todos" class="btn btn-success">List Todo</a>
 

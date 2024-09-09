@@ -5,8 +5,8 @@
 	<div class="collapse navbar-collapse">
 		<ul class="navbar-nav">
 			<security:authorize access="isAnonymous()">
-				<li class="nav-item"><a class="nav-link" href="login">Login</a></li>
-				<li class="nav-item"><a class="nav-link" href="register">Register</a></li>
+				<li class="nav-item"><a class="nav-link" href="login">Sign in</a></li>
+				<li class="nav-item"><a class="nav-link" href="register">Sign up</a></li>
 			</security:authorize>
 			<security:authorize access="isAuthenticated()">
 				<li class="nav-item"><a class="nav-link" href="home">Welcome

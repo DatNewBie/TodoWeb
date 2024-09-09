@@ -31,16 +31,16 @@
 					</fieldset> --%>
 					<div class="form-group">
 						<form:input type="text" path="username" required="required"
-							placeholder="Tên đăng nhập" />
+							placeholder="Username" />
 					</div>
 
 					<div class="form-group">
 						<form:input type="password" path="password" required="required"
-							placeholder="Mật khẩu" />
+							placeholder="Password" />
 					</div>
 
 
-					<button type="submit" class="btn btn-primary">Đăng ký</button>
+					<button type="submit" class="btn btn-primary">Sign up</button>
 
 				</form:form>
 			</div>
